@@ -24,7 +24,7 @@ def click_digita_usuario():
     time.sleep(2)
     elemento.click()
     time.sleep(2)
-    elemento.send_keys("Phnickz")
+    elemento.send_keys("usuário")
     time.sleep(2)
 
 #-clicar no botão
@@ -37,7 +37,7 @@ def clica_botao():
 def digita_senha():
     elemento3 = navegador.find_element(By.XPATH,'//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input')
     time.sleep(2)
-    elemento3.send_keys("Ph114015")
+    elemento3.send_keys("senha")
 
 
 # clicar no botão log in
